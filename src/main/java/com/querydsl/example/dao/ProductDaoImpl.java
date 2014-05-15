@@ -86,7 +86,6 @@ public class ProductDaoImpl implements ProductDao {
         }
         insert.execute();
         
-        p.setId(id);
         return p;
     }
 
